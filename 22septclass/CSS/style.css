@@ -1,0 +1,58 @@
+body { 
+    width: 100vh;
+    height: 100vw;
+    background: url("https://media1.tenor.com/images/3e671cdd027028e58b3c1ebc119fa842/tenor.gif?itemid=10323680");
+    background-repeat: no-repeat;
+   
+    background-size: contain;
+}
+.Box {
+    width: 100%;
+    font-size: 0px;
+    /* margin */
+}
+
+.Box__item {
+    width: 50%;
+    height: 100px;
+}
+
+/* utilty classese */
+
+.bg-grey {
+    background: grey;
+}
+    
+.bg-yg {
+    background: yellowgreen;
+}
+
+.d-i-block {
+    display: inline-block;
+}
+
+/* boxModel */
+
+.boxModel {
+    box-sizing: border-box;
+    width:200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0 auto 0 auto;
+    overflow-y: scroll;
+}
+.boxModel p {
+    background: blue;
+}
+
+.boxModel::before {
+    content: "hello";
+    display: inline;
+}
+
+.boxModel::after {
+    content:"hellp";
+    display: inline;
+}

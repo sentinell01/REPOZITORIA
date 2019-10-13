@@ -1,0 +1,57 @@
+.box {
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    /* background-image: linear-gradient(to right, #2980b9 50%, #95a5a6 50%) */
+
+
+    background-image: radial-gradient(100px circle at 50% 50%, #e67e22 33%, #c0392b 33%, #c0392b 67%, #e67e22 0%  );
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 20%;
+    height: 200px;
+    border:1px solid #e67e22;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+        
+    .flex-item {
+        width: 1000%;
+        height: 200px;
+    }
+}
+
+.center {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+    
+
+
+
+

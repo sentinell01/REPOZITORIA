@@ -1,0 +1,11 @@
+* {margin:0;
+padding:0;}
+h3 {
+    color: red; font-size: 36px;
+}
+[hide] {visibility: hidden;}
+
+label input[type="checkbox"]:checked + h3 {
+    visibility: visible;
+}
+#showText:checked ~ [hide] {visibility: visible;}
